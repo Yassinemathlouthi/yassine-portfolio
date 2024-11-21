@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Michael - Portfolio</title>
+    <title>Yassine mathlouthi - Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -30,7 +30,7 @@
   <body>
     <header>
       <nav>
-        <h1>Michael</h1>
+        <h1>Yassine</h1>
         <ul>
           <li><a href="#s-container">Home</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -53,22 +53,32 @@
         <div class="content">
           <span class="subtitle"> Hello </span>
           <h1 class="title">
-            I'm <span>Michael <br /></span>a Frontend Developer.
+            I'm <span>Yassine <br /></span>a Frontend Developer.
           </h1>
           <p class="description">
-            Welcome to my frontend development realm! I'm Michael, a dedicated
+            Welcome to my frontend development realm! I'm Yassine, a dedicated
             and innovative frontend developer with a penchant for crafting sleek
             and user-friendly interfaces. Throughout my journey in coding, I've
             delved into a multitude of projects, spanning from polished web
             applications to captivating website designs.
           </p>
           <div class="buttons">
-            <a href="#">About Me</a>
+            <a href="#" id="downloadBtn">About Me</a>
+            <script>
+                
+              document.getElementById("downloadBtn").addEventListener("click", function () {
+                  const link = document.createElement("a");
+                  link.href = "cv_page-0001.jpg";
+                  link.download = "cv_page-0001.jpg";
+                  link.click();
+              });
+              
+          </script>
             <a href="#">Portfolio</a>
           </div>
         </div>
         <div class="image">
-          <img src="./images/pffp.jpg" alt="pfp" />
+          <img src="./photo.jpg" alt="pfp" />
         </div>
       </div>
     </section>
@@ -147,20 +157,20 @@
         <div class="wrapper">
           <div class="grp">
             <i class="fa-solid fa-paper-plane"></i>
-            <span>webdevwizard@gmail.com</span>
+            <span>Yassinemathlouthi30043004@gmail.com</span>
           </div>
           <div class="grp">
             <i class="fa-solid fa-phone"></i>
-            <span>+99 12 48 76 95</span>
+            <span>+216 95525199</span>
           </div>
           <div class="grp">
             <i class="fa-brands fa-linkedin"></i>
-            <span>@WebDevWizard0</span>
+            <span>@Yassine_Mathlouthi</span>
           </div>
         </div>
         <div class="footer">
           <p>Let's talk about a project</p>
-          <a href="mailto:@webdevwizard@gmial.com">
+          <a href="mailto:@yassinemathlouthi30043004@gmial.com">
             Hire Me <i class="fa-solid fa-envelope"></i>
           </a>
         </div>
